@@ -63,6 +63,7 @@ body {
   overflow-x: hidden !important;
   font-family: 'Open Sans', sans-serif; }
 
+
 img {
   width: 100%;
   height: auto; }
@@ -87,7 +88,8 @@ h5 {
   font-size: 25px; }
 
 h6 {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #ef9c98;}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -95,9 +97,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
 p {
-  color: #c8c8c8;
-  font-size: 15px;
-  font-weight: 300;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
   line-height: 2;
   margin: 0; }
 
@@ -2383,7 +2385,8 @@ body {
     color: transparent;
     -webkit-text-stroke: 1px #fff; }
   .showcase-full .parallax-slider .caption h1 span {
-    margin-left: 200px; }
+    margin-left: 200px;
+    opacity: 0.6;}
 
 .showcase-full .parallax-slider .caption .discover {
   margin-top: 50px;
@@ -2689,7 +2692,7 @@ body {
     .about .ftbox ul li.space {
       margin: 0 10px; }
     .about .ftbox ul li .icon {
-      color: #d83235;
+      color: #000;
       font-size: 30px;
       margin-bottom: 20px; }
     .about .ftbox ul li h6 {
@@ -2927,8 +2930,8 @@ body {
     background: #efe2d2;
     position: relative; }
     .services .item .icon {
-      color: #d83235;
-      font-size: 40px;
+      color: #d73235;
+      font-size: 50px;
       margin-bottom: 40px; }
     .services .item h6 {
       margin-bottom: 15px; }
@@ -2944,7 +2947,7 @@ body {
     right: 120px;
     bottom: 0;
     left: -300px;
-    background: #1a1e25;
+    background: #e4dace;
     z-index: -1; }
 
 .min-area .content {
@@ -3638,7 +3641,7 @@ body {
       bottom: -120px;
       right: 0;
       width: 80%;
-      background: #1a1e25;
+      background: #f6b9c6;
       z-index: -1; }
   .team .item {
     padding: 0 15px; }
