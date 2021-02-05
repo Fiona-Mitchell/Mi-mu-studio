@@ -1212,9 +1212,9 @@ body {
     transition: all .8s; }
   .btn-curve.btn-lit {
     border-color: #fff;
-    color: #f7bac6; }
+    color: #292754; }
     .btn-curve.btn-lit:hover span {
-      color: #f7bac6; }
+      color: #d73235; }
     .btn-curve.btn-lit:after {
       background: #fff; }
   .btn-curve.btn-blc {
@@ -1249,6 +1249,11 @@ body {
       color: #fff; }
   .btn-curve.btn-radius {
     border-radius: 30px; }
+
+::placeholder{
+  color: #2d2956;
+  opacity: 1;
+}
 
 .simple-btn {
   position: relative;
@@ -2365,7 +2370,7 @@ body {
   position: static; }
 
 .main-content {
-  background: #0c0f16;
+  background: #f8e7d8;
   position: relative;
   z-index: 3; }
 
@@ -4459,7 +4464,7 @@ body {
     width: 100%;
     padding: 15px 0;
     border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #fff;
     background: transparent;
     color: #fff;
     font-family: 'futura-pt', sans-serif; }
@@ -4467,6 +4472,7 @@ body {
 .contact-sec .form button {
   color: #fff;
   font-size: 17px;
+  font-weight: 800;
   background: transparent;
   border: 0; }
 
@@ -4476,23 +4482,23 @@ body {
   padding: 15px 0;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  border-bottom: 1px solid #fff; }
 
 .contact .form textarea {
   padding: 15px;
   min-height: 140px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #fff;
   margin-top: 30px; }
 
 .contact .cont-info h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 10px; }
 
 .contact .cont-info .item h5 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #999;
   margin: 10px 0; }
