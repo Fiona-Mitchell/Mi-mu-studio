@@ -116,7 +116,8 @@ p {
   font-size: 17px;
   font-weight: 500;
   line-height: 2;
-  margin: 0; }
+  margin: 0;
+  font-family: quicksand, sans-serif; }
 
 a, span {
   display: inline-block; }
@@ -1425,7 +1426,7 @@ body {
         opacity: 1;
         cursor: pointer; }
   .navbar .logo {
-    width: 50px; }
+    width: 65px; }
 
 .nav-scroll {
   background: #f6bac6;
@@ -3030,9 +3031,8 @@ body {
           height: 30px;
           line-height: 30px;
           text-align: center;
-          font-size: 13px;
-          border: 1px solid #d83235;
-          border-radius: 50%;
+          font-size: 25px;
+          font-weight: 700;
           margin-right: 10px; }
       .min-area .content ul.feat li p {
         font-size: 13px;
@@ -3726,7 +3726,7 @@ body {
       bottom: 0;
       opacity: 1; }
   .team .navs .prev, .team .navs .next {
-    color: #ccc;
+    color: #ec9794;
     font-size: 13px;
     width: 55px;
     height: 55px;
