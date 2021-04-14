@@ -640,7 +640,20 @@ paceOptions = {
 };
 
 Pace.on('done', function () {
-    $('#preloader').addClass("isdone");
+    $('#preloader-home').addClass("isdone");
+    $('.loading-text').addClass("isdone");
+});
+
+/* ===============================  Preloader page  =============================== */
+
+paceOptions = {
+    ajax: true,
+    document: true,
+    eventLag: false
+};
+
+Pace.on('done', function () {
+    $('#preloader-about').addClass("isdone");
     $('.loading-text').addClass("isdone");
 });
 
