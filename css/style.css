@@ -749,9 +749,9 @@ nav{
   height: 3px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.05);
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   /* box-shadow: 0 0 3px 2px #d83235; */
   }
   .pace .pace-progress {
@@ -766,7 +766,7 @@ nav{
     right: 100%;
     height: 100%;
     width: 100%;
-    background: #d83235;}
+    background: #4c7d8f;}
 
 .pace.pace-inactive {
   width: 100vw;
@@ -775,99 +775,40 @@ nav{
     max-width: 100vw; }
 
 /* PRELOADER PAGES */
-#preloader-home {
+#preloader {
   width: 100%;
   height: 100vh;
   overflow: hidden;
   position: fixed;
   z-index: 9999999; }
-  #preloader-home:after, #preloader-home:before {
+  #preloader:after, #preloader:before {
     content: '';
     position: fixed;
     left: 0;
     height: 50%;
     width: 100%;
-    background: #ee9c97;
+    background: #ffe287;
     -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
-  #preloader-home:before {
+  #preloader:before {
     top: 0; }
-  #preloader-home:after {
+  #preloader:after {
     bottom: 0; }
-  #preloader-home.isdone {
+  #preloader.isdone {
     visibility: hidden;
-    -webkit-transition-delay: 1.5s;
-    -o-transition-delay: 1.5s;
-    transition-delay: 1.5s; }
-    #preloader-home.isdone:after, #preloader-home.isdone:before {
+    -webkit-transition-delay: 0.75s;
+    -o-transition-delay: 0.75s;
+    transition-delay: 0.75s; }
+    #preloader.isdone:after, #preloader.isdone:before {
       height: 0;
       -webkit-transition: all 0.7s cubic-bezier(1, 0, 0.55, 1);
       -o-transition: all 0.7s cubic-bezier(1, 0, 0.55, 1);
       transition: all 0.7s cubic-bezier(1, 0, 0.55, 1);
-      -webkit-transition-delay: 1s;
-      -o-transition-delay: 1s;
-      transition-delay: 1s; }
+      -webkit-transition-delay: 0.85s;
+      -o-transition-delay: 0.85s;
+      transition-delay: 0.85s; }
 
-
-  #preloader-about {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: fixed;
-    z-index: 9999999; }
-    #preloader-about:after, #preloader-about:before {
-      content: '';
-      position: fixed;
-      left: 0;
-      height: 50%;
-      width: 100%;
-      background: #ffe287;
-      -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-      -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-      transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
-    #preloader-about:before {
-      top: 0; }
-    #preloader-about:after {
-      bottom: 0; }
-    #preloader-about.isdone {
-      visibility: hidden;
-      -webkit-transition-delay: 1.5s;
-      -o-transition-delay: 1.5s;
-      transition-delay: 1.5s; }
-      #preloader-about.isdone:after, #preloader-about.isdone:before {
-        height: 0;
-        -webkit-transition: all 0.7s cubic-bezier(1, 0, 0.55, 1);
-        -o-transition: all 0.7s cubic-bezier(1, 0, 0.55, 1);
-        transition: all 0.7s cubic-bezier(1, 0, 0.55, 1);
-        -webkit-transition-delay: 1s;
-        -o-transition-delay: 1s;
-        transition-delay: 1s; }
-
-  /* PRELOADER PAGES */
-
-.loading-text {
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  position: absolute;
-  top: calc(50% - 30px);
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #d83235;
-  font-family: 'Teko', sans-serif;
-  z-index: 9999; }
-  .loading-text.isdone {
-    top: 50%;
-    opacity: 0;
-    -webkit-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-    -o-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
-    -webkit-transition-delay: .5s;
-    -o-transition-delay: .5s;
-    transition-delay: .5s; }
 
 /* ====================== [ End Preloader ] ====================== */
 /* ====================== [ Start Text Animation & Images ] ====================== */
@@ -4666,7 +4607,7 @@ footer{
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
-  
+
   .bg-img {
     background-position: center !important; }
   .md-mb10 {
