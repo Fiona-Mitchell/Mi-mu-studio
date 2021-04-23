@@ -4654,7 +4654,7 @@ footer{
     opacity: 1;
     visibility: visible;
     display: none;
-    background: #f6bac6;
+    background: #9bd4eb;
     text-align: center;
     color: #fff; }
     .navbar-nav .dropdown-menu .dropdown-item {
@@ -4908,6 +4908,10 @@ footer{
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 480px) {
+  .page-header .img-wrapper {
+    display: none;}
+  .section-padding {
+    padding: 50px 0; }
   .hamenu .cont-info {
     display: none; }
   .hamenu .menu-links .main-menu > li {
