@@ -1,51 +1,4 @@
 
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Avo
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-
-== Table Of Content
-
-    |--- BASE
-
-        |- typography
-        |- helper classes
-
-    |--- SHORTCODES
-
-        |- extra
-        |- overlay
-        |- section-heading
-        |- buttons
-        |- navbar
-        |- sliders
-        |- intro
-        |- feature-box
-        |- clients
-        |- counter
-        |- portfolio
-        |- process
-        |- progress-bar
-        |- tabs
-        |- team
-        |- testimonials
-        |- blog
-        |- contact-form
-        |- footers
-
-    |--- BASE
-
-        |- responsive
-
-
-
 ---------------------------------------------------------------- */
 /* ====================== [ Start Typography  ] ====================== */
 * {
@@ -204,6 +157,9 @@ nav{
 
 .section-padding {
   padding: 120px 0; }
+
+.section-padding-a {
+  padding: 50px 0; }
 
 .section-ptb {
   padding: 80px 0; }
@@ -766,7 +722,7 @@ nav{
     right: 100%;
     height: 100%;
     width: 100%;
-    background: #4c7d8f;}
+    background: #ffe287;}
 
 .pace.pace-inactive {
   width: 100vw;
@@ -787,7 +743,7 @@ nav{
     left: 0;
     height: 50%;
     width: 100%;
-    background: #ffe287;
+    background: #9bd4eb;
     -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
@@ -2987,7 +2943,8 @@ body {
     .min-area .content ul li {
       margin-top: 25px;
       padding-left: 25px;
-      position: relative; }
+      position: relative;
+      list-style: none;}
       .min-area .content ul li:after {
         content: '';
         width: 10px;
@@ -3018,7 +2975,7 @@ body {
           font-weight: 700;
           margin-right: 10px; }
       .min-area .content ul.feat li p {
-        font-size: 13px;
+        font-size: 15px;
         padding-left: 45px; }
 
 /* ====================== [ End services ] ====================== */
@@ -4697,7 +4654,7 @@ footer{
     opacity: 1;
     visibility: visible;
     display: none;
-    background: #f6bac6;
+    background: #9bd4eb;
     text-align: center;
     color: #fff; }
     .navbar-nav .dropdown-menu .dropdown-item {
@@ -4951,6 +4908,10 @@ footer{
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 480px) {
+  .page-header .img-wrapper {
+    display: none;}
+  .section-padding {
+    padding: 50px 0; }
   .hamenu .cont-info {
     display: none; }
   .hamenu .menu-links .main-menu > li {
